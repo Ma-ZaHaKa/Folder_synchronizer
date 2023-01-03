@@ -1,0 +1,9 @@
+{
+  "controller_api_url": "http://mydomain.com/ROOTDIR/controller/controller.php",
+  "controller_root_path": "../",
+  "local_sync_dir": "D:\\ROOTDIR\\",
+  "always_rewrite_all": false,
+  "clear_api_sync_dir": true,
+  "hash_history_file": "hash.json",
+  "sync_name_api_dir": true
+}
