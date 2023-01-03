@@ -17,6 +17,6 @@ PHP&lt;-C# folder synchronizer
 9. Параметр "sync_name_api_dir" (BOOL) -> Флаг отвечающий за создание папки на сервере с именем локальной папки. Тут 2 варианта, первый - использовать корень "../" и включить sync_name_api_dir, второй - использовать корень "../ROOTDIR/" и выключить sync_name_api_dir, результат будет одинаковый -> "http://mydomain.com/ROOTDIR/synclocaldirsandfiles". Пример: true -> "http://mydomain.com/ROOTDIR/ROOTDIR/synclocaldirsandfiles" / false -> "http://mydomain.com/ROOTDIR/synclocaldirsandfiles"
  
  
-10. Запустить SYNC_DIR.exe
+10. Запустить SYNC_DIR.exe (Запуск приложения синхронизирует локальную папку с серверной. Он не работает в фоне, 1 запуск 1 синхронизация.)
  
 11. Готово
